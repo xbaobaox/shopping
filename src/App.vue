@@ -3,7 +3,20 @@
     <HelloWorld />
     <div class="box">
       <div class="header">猜你喜欢</div>
-      <ShopItem v-for="(item,index) of data" :key="index" :data="item" />
+      <ShopItem v-for="(item, index) of data" :key="index" :data="item" />
+    </div>
+    <div class="check_all">
+      查看全部团购
+      <img src="../src/assets/right.png" alt="" />
+    </div>
+    <div class="bott_box">
+      <Login />
+      <Link />
+      <div class="copyright">
+        <span class="copyright_left">©2019 美团网 
+          <a href="#" class="copyright_a">京ICP证070791号</a>
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -11,12 +24,16 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import ShopItem from "./components/ShopItem.vue";
+import Login from "./components/Login.vue";
+import Link from "./components/Link";
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    ShopItem
+    ShopItem,
+    Login,
+    Link
   },
   data() {
     return {
@@ -68,7 +85,8 @@ export default {
           sells: "已售5324"
         },
         {
-          img:"//p0.meituan.net/200.0/deal/1f3644fc625b8564fb8e4d235f6809fc125908.jpg@182_0_730_730a%7C267h_267w_2e_90Q",
+          img:
+            "//p0.meituan.net/200.0/deal/1f3644fc625b8564fb8e4d235f6809fc125908.jpg@182_0_730_730a%7C267h_267w_2e_90Q",
           title: "桥头排骨",
           desc: "[2店通用]小吃2选1，提供免费WiFi",
           price: "15.9元",
@@ -76,13 +94,14 @@ export default {
           sells: "已售5324"
         },
         {
-          img:"//p0.meituan.net/200.0/deal/64dbc0ad09aa8e7ac10ef16456b78f5f64495.jpg",
+          img:
+            "//p0.meituan.net/200.0/deal/64dbc0ad09aa8e7ac10ef16456b78f5f64495.jpg",
           title: "欢乐牧场时尚自助餐厅",
           desc: "[祥源广场]单人午餐自助",
           price: "47.9元",
           locallyPrice: "59元",
           sells: "已售65591"
-        },
+        }
       ]
     };
   },
@@ -100,6 +119,12 @@ export default {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
 body {
   background-color: rgb(240, 239, 237);
 }
@@ -112,5 +137,41 @@ body {
 }
 .box {
   background-color: #fff;
+}
+.check_all {
+  color: #fe8c00;
+  padding: 0.625rem;
+  padding-left: 0.625rem;
+  font-size: 1rem;
+  margin: 0.0625rem 0;
+  background: #fff;
+  position: relative;
+}
+.check_all img {
+  position: absolute;
+  right: 0.625rem;
+  width: 1.0625rem;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.bott_box {
+  background-color: #fff;
+}
+.copyright{
+  margin: 16px 16px;
+  border-top:1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.copyright_left, .copyright_a{
+  font-size: 12px;
+  color: #999;
+}
+.copyright_left{
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+  background-color: #fff;
+  top: -10px;
 }
 </style>
