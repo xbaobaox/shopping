@@ -132,7 +132,7 @@ body {
   margin-left: 0.625rem;
   padding: 0.625rem 0;
   color: #333;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: .0625rem solid rgba(0, 0, 0, 0.1);
   font-size: 1rem;
 }
 .box {
@@ -159,19 +159,19 @@ body {
   background-color: #fff;
 }
 .copyright{
-  margin: 16px 16px;
-  border-top:1px solid rgba(0, 0, 0, 0.1);
+  margin: 1rem 1rem 0 1rem;
+  border-top:.0625rem solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .copyright_left, .copyright_a{
-  font-size: 12px;
+  font-size: .75rem;
   color: #999;
 }
 .copyright_left{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 .625rem;
   position: relative;
   background-color: #fff;
-  top: -10px;
+  top: -0.625rem;
 }
 </style>

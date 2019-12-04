@@ -27,7 +27,7 @@ export default {
   display: flex;
   align-items: center;
   position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: .0625rem solid rgba(0, 0, 0, 0.1);
   margin-left: 0.625rem;
 }
 .shop_item img {

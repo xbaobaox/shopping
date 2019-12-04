@@ -51,32 +51,31 @@ export default {
 }
 .link_item {
   color: #fe8c00;
-  font-size: 12px;
+  font-size: .75rem;
 }
 .separate {
-  padding: 0 18px;
-  font-size: 12px;
+  padding: 0 1.125rem;
+  font-size: .75rem;
   color: #000;
 }
 .friend_ul {
   display: inline-flex;
 }
 .fri_span{
-  font-size: 12px;
+  font-size: .75rem;
   color:#666;
 }
 .friend_box{
-  padding: 0 27px;
-  margin-top: 10px;
+  padding: 0 1.6875rem;
+  margin-top: .625rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center
 }
 .friend_link{
-  /* flex:1; */
-  font-size: 12px;
+  font-size: .75rem;
   color:#666;
-  margin-right: 18px;
-  margin-left: 18px;
+  margin-right: 1.125rem;
+  margin-left: 1.125rem;
 }
 </style>

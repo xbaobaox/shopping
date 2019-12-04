@@ -18,34 +18,34 @@ export default {
 .login_bar {
   display: flex;
   align-items: center;
-  padding: 15px 0;
-  margin-right: 30px;
+  padding: .9375rem 0;
+  margin-right: 1.875rem;
   position: relative;
 }
 .login,
 .register {
   color: #111;
-  font-size: 14px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  margin-right: 10px;
+  font-size: .875rem;
+  padding: .3125rem .9375rem;
+  border-radius: .3125rem;
+  margin-right: .625rem;
   background-color: #ffd000;
 }
 .login {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .position {
-  font-size: 12px;
+  font-size: .75rem;
   color: #666;
   position: absolute;
   right: 0;
 }
 .city {
-  font-size: 14px;
+  font-size: .875rem;
   color: #000;
 }
 .icon {
-  width: 12px;
-  padding: 0 5px;
+  width: .75rem;
+  padding: 0 .3125rem;
 }
 </style>

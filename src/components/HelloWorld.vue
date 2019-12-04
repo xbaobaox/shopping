@@ -183,7 +183,7 @@ li {
 .right a{
   display: inline-block;
   position: absolute;
-  right:15px;
+  right:.9375rem;
   color:#000;
   font-size: .75rem;
   padding: 0.5rem .5rem;
@@ -193,7 +193,7 @@ li {
 .page{
   padding: .625rem 0;
   height: 8.75rem;
-  margin-bottom:10px;
+  margin-bottom:.625rem;
   background-color: #fff;
 }
 .li {
