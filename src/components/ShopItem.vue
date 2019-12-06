@@ -22,7 +22,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style >
 .shop_item {
   display: flex;
   align-items: center;

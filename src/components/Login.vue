@@ -3,7 +3,7 @@
     <div class="login_bar">
       <a href="" class="login">登陆</a><a href="" class="register">注册</a>
       <div class="position">
-        城市:<img src="../assets/position.png" alt="" class="icon" />
+        城市:<img src="../images/position.png" alt="" class="icon" />
         <span class="city">上海</span>
       </div>
     </div>

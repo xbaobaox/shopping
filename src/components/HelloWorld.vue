@@ -2,14 +2,14 @@
  <div class="subject">
     <div class="search">
       <div class="city"><span>杭州</span></div>
-        <a href="#">
-          <img src="../assets/放大镜.png" alt="" class="search_icon">
-          请输入商家名、品类或者商圈...</a>
-          <img src="../assets/man.png" alt="" class="man">
+        <router-link to="details">
+          <img src="../images/放大镜.png" alt="" class="search_icon">
+          请输入商家名、品类或者商圈...</router-link>
+          <img src="../images/man.png" alt="" class="man">
     </div>
     <div class="ad">
       <div class="left">
-        <img src="../assets/7264ce9c25de2e464e3acd996fe8ad362803.png" alt="">
+        <img src="../images/7264ce9c25de2e464e3acd996fe8ad362803.png" alt="">
         <div class="left_cont">
           <p class="p_top">省钱利器 购物超划算</p>
           <p class="p_bott">吃喝玩乐尽在美团</p>
@@ -39,61 +39,61 @@ export default {
       menu: [
         {
           id: 1,
-          icon: require("../assets/美食.png"),
+          icon: require("../images/美食.png"),
           title: "美食",
           color: "background:rgb(253,157,33)"
         },
         {
           id: 2,
-          icon: require("../assets/猫眼电影.png"),
+          icon: require("../images/猫眼电影.png"),
           title: "猫眼电影",
           color: "background:rgb(255,103,103)"
         },
         {
           id: 3,
-          icon: require("../assets/酒店.png"),
+          icon: require("../images/酒店.png"),
           title: "酒店",
           color: "background:rgb(138,144,250)"
         },
         {
           id: 4,
-          icon: require("../assets/休闲娱乐.png"),
+          icon: require("../images/休闲娱乐.png"),
           title: "休闲娱乐",
           color: "background:rgb(255,207,82)"
         },
         {
           id: 5,
-          icon: require("../assets/外卖.png"),
+          icon: require("../images/外卖.png"),
           title: "外卖",
           color: "background:rgb(253,157,33)"
         },
         {
           id: 6,
-          icon: require("../assets/ktv.png"),
+          icon: require("../images/ktv.png"),
           title: "KTV",
           color: "background:rgb(255,207,82)"
         },
         {
           id: 7,
-          icon: require("../assets/周边游.png"),
+          icon: require("../images/周边游.png"),
           title: "周边游",
           color: "background:rgb(77,198,238)"
         },
         {
           id: 8,
-          icon: require("../assets/丽人.png"),
+          icon: require("../images/丽人.png"),
           title: "丽人",
           color: "background:rgb(255,128,194)"
         },
         {
           id: 9,
-          icon: require("../assets/小吃快餐.png"),
+          icon: require("../images/小吃快餐.png"),
           title: "小吃快餐",
           color: "background:rgb(255,156,62)"
         },
         {
           id: 10,
-          icon: require("../assets/省略号.png"),
+          icon: require("../images/省略号.png"),
           title: "全部分类",
           color: "background:rgb(0,211,190)"
         }

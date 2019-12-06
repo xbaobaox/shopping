@@ -39,7 +39,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
 .link_flex {
   display: flex;
   flex-direction: column;
