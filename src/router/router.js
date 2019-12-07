@@ -1,5 +1,4 @@
 import APP from "../App.vue"
-import Details from "../page/Details.vue"
 export default [
   {
     path: "/",

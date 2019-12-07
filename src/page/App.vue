@@ -3,7 +3,9 @@
     <HelloWorld />
     <div class="box">
       <div class="header">猜你喜欢</div>
-      <ShopItem v-for="(item, index) of data" :key="index" :data="item" />
+      
+        <ShopItem v-for="(item, index) of data" :key="index" :data="item" />
+      
     </div>
     <div class="check_all">
       查看全部团购
@@ -13,7 +15,8 @@
       <Login />
       <Link />
       <div class="copyright">
-        <span class="copyright_left">©2019 美团网 
+        <span class="copyright_left"
+          >©2019 美团网
           <a href="#" class="copyright_a">京ICP证070791号</a>
         </span>
       </div>
@@ -132,7 +135,7 @@ body {
   margin-left: 0.625rem;
   padding: 0.625rem 0;
   color: #333;
-  border-bottom: .0625rem solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
   font-size: 1rem;
 }
 .box {
@@ -158,18 +161,19 @@ body {
 .bott_box {
   background-color: #fff;
 }
-.copyright{
+.copyright {
   margin: 1rem 1rem 0 1rem;
-  border-top:.0625rem solid rgba(0, 0, 0, 0.1);
+  border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.copyright_left, .copyright_a{
-  font-size: .75rem;
+.copyright_left,
+.copyright_a {
+  font-size: 0.75rem;
   color: #999;
 }
-.copyright_left{
+.copyright_left {
   display: inline-block;
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
   position: relative;
   background-color: #fff;
   top: -0.625rem;

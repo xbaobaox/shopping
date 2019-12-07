@@ -3,12 +3,12 @@
     <div class="shop_item">
       <img :src="data.img" alt />
       <div class="cont">
-        <div class="name">{{data.title}}</div>
-        <div class="desc">{{data.desc}}</div>
+        <div class="name">{{ data.title }}</div>
+        <div class="desc">{{ data.desc }}</div>
         <div class="info">
-          <span class="price">{{data.price}}</span>
-          <span class="locally_price">门市价:{{data.locallyPrice}}</span>
-          <span class="sells">{{data.sells}}</span>
+          <span class="price">{{ data.price }}</span>
+          <span class="locally_price">门市价:{{ data.locallyPrice }}</span>
+          <span class="sells">{{ data.sells }}</span>
         </div>
       </div>
     </div>
@@ -22,12 +22,12 @@ export default {
   }
 };
 </script>
-<style >
+<style>
 .shop_item {
   display: flex;
   align-items: center;
   position: relative;
-  border-bottom: .0625rem solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
   margin-left: 0.625rem;
 }
 .shop_item img {

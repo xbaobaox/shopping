@@ -4,8 +4,10 @@
       <div class="city"><span>杭州</span></div>
         <router-link to="details">
           <img src="../images/放大镜.png" alt="" class="search_icon">
-          请输入商家名、品类或者商圈...</router-link>
+          请输入商家名、品类或者商圈...
+        </router-link>
           <img src="../images/man.png" alt="" class="man">
+      
     </div>
     <div class="ad">
       <div class="left">
