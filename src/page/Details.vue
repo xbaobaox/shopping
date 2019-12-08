@@ -3,6 +3,7 @@
     <NavBar />
     <product />
     <evaluate />
+    <business />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import NavBar from "../components/NavBar";
 import product from "../components/product";
 import Evaluate from "../components/Evaluate.vue";
+import business from "../components/business"
 export default {
   name: "Detials",
   components: {
     NavBar,
     product,
-    Evaluate
+    Evaluate,
+    business
   }
 };
 </script>

@@ -85,24 +85,7 @@ export default {
   padding-bottom: 3px;
 }
 .ad_img {
-  /* width: 23.4375rem; */
   max-width: 100%;
   vertical-align: bottom;
 }
-
-/* .product::after {
-  content: "";
-  height: 50px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: -webkit-linear-gradient(
-    bottom,
-    rgba(0, 0, 0, 0.58),
-    rgba(0, 0, 0, 0.3) 64%,
-    transparent
-  );
-} */
-
 </style>
