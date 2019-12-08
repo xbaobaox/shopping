@@ -8,7 +8,7 @@ export default [
         path: "",
         component: r =>
           // require.ensure([], () => r(require("../page/App.vue")), "App")
-          require.ensure([],() => r(require("../page/Details.vue")), "details")
+          require.ensure([],() => r(require("../page/Details.vue")), "details")//最后的'details' 给路由定义一个名字
       },
       // {
       //   path: "/item",

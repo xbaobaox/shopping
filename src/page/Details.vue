@@ -2,17 +2,20 @@
   <div>
     <NavBar />
     <product />
+    <evaluate />
   </div>
 </template>
 
 <script>
-import NavBar from "../components/NavBar.vue";
+import NavBar from "../components/NavBar";
 import product from "../components/product";
+import Evaluate from "../components/Evaluate.vue";
 export default {
   name: "Detials",
   components: {
     NavBar,
-    product
+    product,
+    Evaluate
   }
 };
 </script>
@@ -28,7 +31,7 @@ a {
 li {
   list-style: none;
 }
-body{
-  background-color: rgb(240,240,240);
+body {
+  background-color: rgb(240, 240, 240);
 }
 </style>
