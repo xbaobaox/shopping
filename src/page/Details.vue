@@ -8,6 +8,7 @@
     <purchase/>
     <evaluation/>
     <recommend/>
+    <ad/>
   </div>
 </template>
 
@@ -19,7 +20,8 @@ import business from "../components/business";
 import meal from "../components/meal";
 import purchase from "../components/purchase";
 import evaluation from "../components/evaluation";
-import recommend from "../components/recommend"
+import recommend from "../components/recommend";
+import ad from "../components/ad"
 export default {
   name: "Detials",
   components: {
@@ -31,6 +33,7 @@ export default {
     purchase,
     evaluation,
     recommend,
+    ad,
   }
 };
 </script>

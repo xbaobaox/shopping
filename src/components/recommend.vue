@@ -7,7 +7,7 @@
         <p class="desc">{{ item.desc }}</p>
       </div>
       <div class="bott">
-        <p class="price">{{ item.price }}元</p>
+        <p class="price">{{ item.price }}<span class="yuan">元</span> </p>
         <p class="localprice">门市价:{{item.localprice}}元</p>
         <p class="sells">已售{{item.sells}}</p>
       </div>
@@ -75,9 +75,11 @@ export default {
   background-position: -181px -42px;
   width: 19px;
   height: 20px;
+  transform: scale(.8)
 }
 .quan {
   display: inline-block;
+  transform: scale(.8);
   background-image: url(../../src/images/spr.png);
   background-size: 100px;
   background-position: -181px 0px;
@@ -94,31 +96,48 @@ export default {
   padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+.recom_cont{
+  margin-left: 10px;
+}
 .top {
   display: flex;
   align-items: center;
   padding: 10px;
+  padding-left: 0;
+  padding-bottom: 3px;
 }
 .bott{
   display: flex;
   align-items:flex-end;
-  padding-left: 40px;
+  padding-left: 26px;
+  padding-bottom: 10px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .desc {
   font-size: 14px;
   color: #666;
-  padding-left: 8px;
+  padding-left: 5px;
 }
 .price{
   font-size: 18px;
   font-weight: bold;
   color:#06c1ae;
 }
+.yuan{
+  font-size:14px;
+  font-weight: normal;
+}
 .sells,.localprice{
   font-size: 12px;
   color:#666;
 }
+.sells{
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
 .localprice{
-  padding-left: 5px;
+  padding-left: 6px;
 }
 </style>
