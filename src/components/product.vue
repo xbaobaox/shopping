@@ -127,9 +127,9 @@ export default {
   align-items: center;
   /* justify-content: center; */
   flex-wrap: wrap;
-  width: 100%;
+  /* width: 100%; */
   background-color: #fff;
-  padding: 20px 30px 10px 10px;
+  padding: 20px 0px 10px 10px;
   margin-top: 1px;
 }
 .explain_icon_1,
@@ -165,5 +165,8 @@ export default {
   font-size: 14px;
   width: 50%;
   padding-bottom: 10px;
+}
+.green{
+  color:#6bbd00;
 }
 </style>

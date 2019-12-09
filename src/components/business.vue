@@ -102,6 +102,6 @@ export default {
   right: 0;
   width: 16px;
   margin-right: 15px;
-  /* padding-right: 10px; */
 }
+
 </style>

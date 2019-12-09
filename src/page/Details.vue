@@ -4,6 +4,10 @@
     <product />
     <evaluate />
     <business />
+    <meal />
+    <purchase/>
+    <evaluation/>
+    <recommend/>
   </div>
 </template>
 
@@ -11,14 +15,22 @@
 import NavBar from "../components/NavBar";
 import product from "../components/product";
 import Evaluate from "../components/Evaluate.vue";
-import business from "../components/business"
+import business from "../components/business";
+import meal from "../components/meal";
+import purchase from "../components/purchase";
+import evaluation from "../components/evaluation";
+import recommend from "../components/recommend"
 export default {
   name: "Detials",
   components: {
     NavBar,
     product,
     Evaluate,
-    business
+    business,
+    meal,
+    purchase,
+    evaluation,
+    recommend,
   }
 };
 </script>
