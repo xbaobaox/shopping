@@ -5,7 +5,7 @@
         <img src="../images/7c71ecc4b44d0e17447076cd23e501cb31967.png" alt="" />
       </div>
       <div class="phone_info">
-        <router-link to="/statenum" class="state">中国 +86</router-link><span> ></span
+        <router-link to="/phoneIndex" class="state">{{country}}{{num}}</router-link><span> ></span
         ><input type="text" placeholder="请输入手机号" class="phone_num" />
       </div>
       <div class="phone_code">
@@ -31,7 +31,12 @@
 
 <script>
 export default {
-  name: "Signin"
+  name: "Signin",
+  created(){
+    console.log(this.$store,this.$store)
+    this.country=this.$store.state.countryName;
+    this.num=this.$store.state.countryCode;
+  }
 };
 </script>
 
@@ -119,8 +124,6 @@ input {
   background-color: rgb(255, 236, 179);
 }
 .tip {
-  /* margin: 0 auto; */
-  /* width: 51%; */
   font-size: 12px;
   color: #999;
   margin-top: 10px;

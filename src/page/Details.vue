@@ -78,12 +78,12 @@ body {
   display: inline-block;
   padding: 0 0.625rem;
   position: relative;
-  background-color: rgb(240,240,240);
+  background-color: rgb(240, 240, 240);
   top: -13px;
 }
-.dqwz{
+.dqwz {
   padding: 10px 0 0 10px;
   font-size: 14px;
-  color:#06c1ae;
+  color: #06c1ae;
 }
 </style>
