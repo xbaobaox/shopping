@@ -13,7 +13,6 @@
     </ul>
     <div class="friend_box">
       <span class="fri_span">友情链接:</span>
-
       <a v-for="(item, index) of link" :key="index" class="friend_link">
         {{ item.name }}
       </a>

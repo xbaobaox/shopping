@@ -3,9 +3,7 @@
     <HelloWorld />
     <div class="box">
       <div class="header">猜你喜欢</div>
-      
         <ShopItem v-for="(item, index) of data" :key="index" :data="item" />
-      
     </div>
     <div class="check_all">
       查看全部团购
@@ -108,7 +106,6 @@ export default {
       ]
     };
   },
-  methods: {}
 };
 </script>
 

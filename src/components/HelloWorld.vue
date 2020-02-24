@@ -23,12 +23,12 @@
     </div>
     <ul class="page">
       <li v-for="(item,index) of menu" :key="index" class="li">
-        <div class="content">
+        <router-link to='/foodItem' class="content">
           <div class="icon" :style="item.color">
             <img :src="item.icon" class="icon_image" />
           </div>
           <div class="title">{{item.title}}</div>
-        </div>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -43,7 +43,8 @@ export default {
           id: 1,
           icon: require("../images/美食.png"),
           title: "美食",
-          color: "background:rgb(253,157,33)"
+          color: "background:rgb(253,157,33)",
+          link:'/foodItem'
         },
         {
           id: 2,

@@ -81,6 +81,7 @@ export default {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 10px;
+  margin-left: 0;
 }
 .title {
   color: #333;

@@ -28,7 +28,6 @@ export default {
   // 	state.allTime = 0;
   // 	state.answerid = [];
 	// },
-	
   [COUNTRY_CODE](state,country) {
 		//state 是store/index.js 里的state对象 country是传递来的数据
     state.countryName = country.state;

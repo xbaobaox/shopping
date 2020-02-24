@@ -5,7 +5,7 @@ import store from "./store/";
 import ajax from "./config/ajax";
 import "./style/common";
 import "./config/rem";
-import ElementUI from "element-ui";
+// import ElementUI from "element-ui";
 import 'element-ui/lib/theme-chalk/index.css';
 // import { IndexBar, IndexAnchor } from 'vant';
 // import { Button } from 'vant';
@@ -14,9 +14,10 @@ import Vant from "vant";
 import "vant/lib/index.css";
 // Vue.use(Button);
 Vue.use(Vant);
-Vue.use(ElementUI);
+// Vue.use(ElementUI);
 Vue.use(VueRouter);
 const router = new VueRouter({
+  mode:'history',
   routes
 });
 new Vue({
